@@ -1,0 +1,30 @@
+# Datasets (large; download separately, see README)
+CREMA-D/
+data/
+*.wav
+*.flac
+*.mp3
+
+# Generated labels and training outputs
+crema_voice_votes.csv
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Inference outputs
+segments_scored.csv
+windows.csv
+emotions.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
